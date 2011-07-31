@@ -1,0 +1,4 @@
+An example of AJAX chat taken from Tornado demos and converted to use Bottle and gevent.
+
+To start the server, run
+$ python chat.py
