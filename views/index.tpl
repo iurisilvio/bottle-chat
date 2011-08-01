@@ -23,7 +23,7 @@
 	<form action="/a/message/new" method="post" id="messageform">
 	  <table>
 	    <tr>
-          <td><input name="body" id="message" style="width:500px"/></td>
+          <td><input type="text" name="body" id="message" style="width:500px"/></td>
 	      <td style="padding-left:5px">
 		<input type="submit" value="Post"/>
 	      </td>
@@ -32,7 +32,7 @@
 	</form>
       </div>
     </div>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js" type="text/javascript"></script>
+    <script src="{{ url("static", filename='jquery-1.6.2.min.js') }}" type="text/javascript"></script>
     <script src="{{ url("static", filename='chat.js') }}" type="text/javascript"></script>
   </body>
 </html>
